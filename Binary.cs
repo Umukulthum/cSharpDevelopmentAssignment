@@ -2,9 +2,9 @@ using System;
 using static System.Console;
 class Binary
 {
-    static void Main3(string[] args)
+    static void Main(string[] args)
     {
-
+        Console.WriteLine($"Factorial 8 is : {Factorial(8)}");
         var tt  =  1/2;
         var tt2 = 1 %2;
         WriteLine(tt);
@@ -26,5 +26,7 @@ class Binary
         }  
         return res;
     }
+
+    public static long Factorial(int n) =>  n  < 2 ? 1 : n * Factorial(n - 1);
 
 }

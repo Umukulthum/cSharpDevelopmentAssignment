@@ -1,8 +1,9 @@
 using static System.Console;
 class Assignment1d
 {
-    static void Main(string[] args)
+    static void Main12(string[] args)
     {
+        
         Write("Enter a number: ");
         bool correct = int.TryParse(ReadLine(), out int number);
         WriteLine(correct? ConvertInteger(number): "Enter a valid number");
@@ -68,7 +69,8 @@ class Assignment1d
         int remainder1 = number % 1000;
         //if (quotient1 > 
         ans = tensDigits[quotient1] + " " + tensHundred[1];
-        if (remainder1 )
+        //if (remainder1 )
+        return ans;
 
     }
 }
