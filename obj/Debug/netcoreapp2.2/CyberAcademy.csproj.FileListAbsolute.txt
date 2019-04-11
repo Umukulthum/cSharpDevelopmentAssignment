@@ -1,0 +1,11 @@
+C:\Users\kanyi\Desktop\CyberAcademy\bin\Debug\netcoreapp2.2\CyberAcademy.deps.json
+C:\Users\kanyi\Desktop\CyberAcademy\bin\Debug\netcoreapp2.2\CyberAcademy.runtimeconfig.json
+C:\Users\kanyi\Desktop\CyberAcademy\bin\Debug\netcoreapp2.2\CyberAcademy.runtimeconfig.dev.json
+C:\Users\kanyi\Desktop\CyberAcademy\bin\Debug\netcoreapp2.2\CyberAcademy.dll
+C:\Users\kanyi\Desktop\CyberAcademy\bin\Debug\netcoreapp2.2\CyberAcademy.pdb
+C:\Users\kanyi\Desktop\CyberAcademy\obj\Debug\netcoreapp2.2\CyberAcademy.csprojAssemblyReference.cache
+C:\Users\kanyi\Desktop\CyberAcademy\obj\Debug\netcoreapp2.2\CyberAcademy.csproj.CoreCompileInputs.cache
+C:\Users\kanyi\Desktop\CyberAcademy\obj\Debug\netcoreapp2.2\CyberAcademy.AssemblyInfoInputs.cache
+C:\Users\kanyi\Desktop\CyberAcademy\obj\Debug\netcoreapp2.2\CyberAcademy.AssemblyInfo.cs
+C:\Users\kanyi\Desktop\CyberAcademy\obj\Debug\netcoreapp2.2\CyberAcademy.dll
+C:\Users\kanyi\Desktop\CyberAcademy\obj\Debug\netcoreapp2.2\CyberAcademy.pdb
