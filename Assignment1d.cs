@@ -1,7 +1,7 @@
 using static System.Console;
 class Assignment1d
 {
-    static void Main12(string[] args)
+    static void Main2(string[] args)
     {
         
         Write("Enter a number: ");
@@ -16,35 +16,22 @@ class Assignment1d
     {
         string result = "";
         if (number < 100)
-        {
             result = Conv(number);
-        }
         if (number >= 100 && number < 1000)
-        {
             result = Convert(number);
-        }
         if (number >= 1000 && number < 1000000)
-        {
-            result = ConvertHundred(number);
-        }
+            result = ConvertThousand(number);
         return result;
     }
     static string Conv(int number)
     {
         string val = "";
         if (number < 20)
-        { 
             val = tensDigits[number];
-        }
         if (number >= 20)
-        {
             val = tensMultiple[(number/10) - 2];
             if (number % 10 != 0)
-            {
                 val += " " + tensDigits[number%10];
-            }
-        }
-        
         return val;
     }
     static string Convert(int number)
@@ -53,25 +40,20 @@ class Assignment1d
         int quotient = number / 100;
         int remainder = number % 100;
         if (quotient > 0)
-        {
             word = tensDigits[quotient] + " " + tensHundred[0];
-            if (remainder > 0)
-            {
-                word += " and " + Conv(remainder);
-            }
-        }
+        if (remainder > 0)
+            word += " and " + Conv(remainder);
         return word;
     }
-    static string ConvertHundred (int number)
+    static string ConvertThousand (int number)
     {
         string ans = "";
         int quotient1 = number / 1000;
-        int remainder1 = number % 1000;
-        //if (quotient1 > 
+        int remainder1 = number % 1000; 
         ans = tensDigits[quotient1] + " " + tensHundred[1];
-        //if (remainder1 )
+        if (remainder1 > 0)
+            ans += " " + Convert(remainder1);
         return ans;
-
     }
 }
 
